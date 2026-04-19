@@ -10,4 +10,9 @@ if (!(Test-Path -Path $PROFILE)) { New-Item -ItemType File -Path $PROFILE -Force
 
 and open with `notepad` or `code` or `nvim` or the text editor/IDE of your choice, then copy the content of my PROFILE file in yours.
 
+You can also install posh git which is a fabulous tool to get autocompletion
+```powershell
+Install-Module posh-git -Scope CurrentUser
+```
+
 Then you can enjoy it !
