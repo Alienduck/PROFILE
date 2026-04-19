@@ -8,6 +8,11 @@ Create a `.config` folder at your user folder, then add another folder named `fa
 if (!(Test-Path -Path $PROFILE)) { New-Item -ItemType File -Path $PROFILE -Force }
 ```
 
+You also need to install fastfetch:
+```powershell
+winget install fastfetch
+```
+
 and open with `notepad` or `code` or `nvim` or the text editor/IDE of your choice, then copy the content of my PROFILE file in yours.
 
 You can also install posh git which is a fabulous tool to get autocompletion
