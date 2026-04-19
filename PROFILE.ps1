@@ -1,5 +1,5 @@
 # Active la completion Git
-Import-Module posh-git
+Import-Module posh-git -ErrorAction SilentlyContinue
 # ======================
 # Alias Git
 # ======================
