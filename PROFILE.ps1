@@ -142,5 +142,5 @@ Clear-Host
 
 # Force Fastfetch to use YOUR config every time (bypass path confusion)
 if (Get-Command fastfetch -ErrorAction SilentlyContinue) {
-    fastfetch -c "C:/Users/oneui/.config/fastfetch/config.jsonc"
+    fastfetch -c "$env:USERPROFILE\.config\fastfetch\config.jsonc"
 }
